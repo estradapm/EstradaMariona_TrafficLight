@@ -13,16 +13,13 @@ const TrafficLight = () => {
         <div id="container">
       <div
         onClick={() => setColor("red")}
-        className={`light red ${color === "red" ? "active" : ""}`}
-      ></div>
+        className={`light red ${color === "red" ? "active" : ""}`}></div>
       <div
         onClick={() => setColor("yellow")}
-        className={`light yellow ${color === "yellow" ? "active" : ""}`}
-      ></div>
+        className={`light yellow ${color === "yellow" ? "active" : ""}`}></div>
       <div
         onClick={() => setColor("green")}
-        className={`light green ${color === "green" ? "active" : ""}`}
-      ></div>
+        className={`light green ${color === "green" ? "active" : ""}`} ></div>
     </div>
     </div>
     )
